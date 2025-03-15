@@ -1,0 +1,51 @@
+# Игнорируем все target/ во всех подпапках
+**/target/
+
+# Исключаем только maven-wrapper.jar
+!.mvn/wrapper/maven-wrapper.jar
+
+# Исключаем target внутри src/main и src/test, если необходимо
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### IntelliJ IDEA ###
+**/.idea/
+**/*.iws
+**/*.iml
+**/*.ipr
+**/.idea/modules.xml
+**/.idea/jarRepositories.xml
+**/.idea/compiler.xml
+**/.idea/libraries/
+
+### Java ###
+**/*.class
+**/*.jar
+**/*.war
+
+### Eclipse ###
+**/.apt_generated
+**/.classpath
+**/.factorypath
+**/.project
+**/.settings
+**/.springBeans
+**/.sts4-cache
+
+### NetBeans ###
+**/nbproject/private/
+**/nbbuild/
+**/dist/
+**/nbdist/
+**/.nb-gradle/
+
+# Игнорируем build/ во всех подпапках, кроме src/main и src/test
+**/build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+**/.vscode/
+
+### Mac OS ###
+**/.DS_Store
